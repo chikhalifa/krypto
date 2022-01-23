@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+cryptospire.trade	TRUE	/	FALSE	1999999999	CameFrom	deleted
+cryptospire.trade	TRUE	/	FALSE	1999999999	PHPSESSID	0fos0ilq83b9geej4a5l4eg1q5
+

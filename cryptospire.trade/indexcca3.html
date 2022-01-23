@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from cryptospire.trade/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Jan 2022 17:42:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>cryptospire.trade</title>
+<link rel="icon" href="styles/images/favicon.png">
+<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href='styles/animate.css' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap" rel="stylesheet">
+<link href='styles/custom.css' rel='stylesheet' type='text/css'>
+<link href='styles/hover.css' rel='stylesheet' type='text/css'>
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='styles/setting2.js' type='text/javascript'></script>
+<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="styles/wow.js"></script>
+<script src="styles/wow.min.js"></script>
+<script src="../kit.fontawesome.com/ae56ab8d7c.js"></script>
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="a1897495-88b1-42d8-a984-216c6031f9da";(function(){d=document;s=d.createElement("script");s.src="../client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+</head>
+<body>
+<div class="wrapper">
+<div class="headerwrap headerwrap-sub"> <div class="menuwrap">
+<div class="content">
+<div class="logo"><a href="indexbc14.html?a=home"><img src="styles/images/logo11.png" alt="" /></a></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+<div id="google_translate_element" style="float:left; padding-top:42px;padding-left:70px;"></div>
+<div class="menu">
+<ul>
+<li><a href="indexbc14.html?a=home">HOME</a></li>
+<li><a href="index3898.html?a=cust&amp;page=about">ABOUT</a></li>
+<li><a href="index38cd.html?a=faq">FAQ</a></li>
+<li><a href="index15a0.html?a=support">SUPPORT</a></li>
+<li class="login"><a href="indexc30b.html?a=login">LOGIN</a></li>
+<li class="signup"><a href="indexcca3.html?a=signup">SIGNUP</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bannerwrap">
+<div class="content">
+<div class="left">
+<h1 class="bounceInUp wow">Register <span>Account</span></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="inside_wrap ">
+<div class="content">
+<div class="loginwrappers">
+<div class="icon"><img src="styles/images/benefit3.png" alt=""></div>
+<div class="loginheads">Fill in the form to signup</div>
+<div class="form-container login">
+<script language=javascript>
+ function checkform() {
+  if (document.regform.fullname.value == '') {
+    alert("Please enter your full name!");
+    document.regform.fullname.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.username.value == '') {
+    alert("Please enter your username!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (!document.regform.username.value.match(/^[A-Za-z0-9_\-]+$/)) {
+    alert("For username you should use English letters and digits only!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (document.regform.password.value == '') {
+    alert("Please enter your password!");
+    document.regform.password.focus();
+    return false;
+  }
+  if (document.regform.password.value != document.regform.password2.value) {
+    alert("Please check your password!");
+    document.regform.password2.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.email.value == '') {
+    alert("Please enter your e-mail address!");
+    document.regform.email.focus();
+    return false;
+  }
+  if (document.regform.email.value != document.regform.email1.value) {
+    alert("Please retupe your e-mail!");
+    document.regform.email.focus();
+    return false;
+  }
+
+  for (i in document.regform.elements) {
+    f = document.regform.elements[i];
+    if (f.name && f.name.match(/^pay_account/)) {
+      if (f.value == '') continue;
+      var notice = f.getAttribute('data-validate-notice');
+      var invalid = 0;
+      if (f.getAttribute('data-validate') == 'regexp') {
+        var re = new RegExp(f.getAttribute('data-validate-regexp'));
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      } else if (f.getAttribute('data-validate') == 'email') {
+        var re = /^[^\@]+\@[^\@]+\.\w{2,4}$/;
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      }
+      if (invalid) {
+        alert('Invalid account format. Expected '+notice);
+        f.focus();
+        return false;
+      }
+    }
+  }
+
+  if (document.regform.agree.checked == false) {
+    alert("You have to agree with the Terms and Conditions!");
+    return false;
+  }
+
+  return true;
+ }
+
+ function IsNumeric(sText) {
+  var ValidChars = "0123456789";
+  var IsNumber=true;
+  var Char;
+  if (sText == '') return false;
+  for (i = 0; i < sText.length && IsNumber == true; i++) { 
+    Char = sText.charAt(i); 
+    if (ValidChars.indexOf(Char) == -1) {
+      IsNumber = false;
+    }
+  }
+  return IsNumber;
+ }
+ </script>
+<form method=post onsubmit="return checkform()" name="regform"><input type="hidden" name="form_id" value="16429597097130"><input type="hidden" name="form_token" value="f9f7fea3796f2a130ee030439cd94109">
+<input type=hidden name=a value="signup">
+<input type=hidden name=action value="signup">
+<table cellspacing=0 cellpadding=2 border=0 width="100%">
+<tr>
+<td width="100%"><input placeholder="Your Full Name" type=text name=fullname value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Your Username" type=text name=username value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Define Password" type=password name=password value='' class=inpts size=30></td>
+</tr><tr>
+<td><input placeholder="Retype Password" type=password name=password2 value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Your Bitcoin Account" type=text class=inpts size=30 name=pay_account[48] value="" data-validate="regexp" data-validate-regexp="^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$" data-validate-notice="Bitcoin Address"></td>
+</tr>
+<tr>
+<td><input placeholder="Your E-mail Address" type=text name=email value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Retype Your E-mail" type=text name=email1 value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Secret question" type=text name=sq value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td><input placeholder="Secret answer" type=text name=sa value='' class=inpts size=30></td>
+</tr>
+<tr>
+<td align="center"><div class="iagree"><input type=checkbox name=agree value=1> I agree with <a href="indexa972.html?a=rules">Terms and conditions</a></div></td>
+</tr>
+<tr>
+<td align="center"><input type=submit value="Register" class=sbmt></td>
+</tr></table>
+</form>
+</div>
+<div class="loginaction"><h4>Do you already have an account? </h4><a href="indexc30b.html?a=login" class="signup">Login Here</a></div>
+</div></div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="19" class="forCopyright">All Rights Reserved. <a href='index.html' class="forCopyright">cryptospire.trade</a></td>
+</tr>
+</table>
+</center></body>
+
+<!-- Mirrored from cryptospire.trade/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Jan 2022 17:42:08 GMT -->
+</html>

@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 23 Jan 2022 18:41:37 at https://cryptospire.trade/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://cryptospire.trade/ -O1 "C:\Users\dell\Desktop\kako" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:42:08	Error: 	"Not Found" (404) at link https://cryptospire.trade/styles/images/welcomebg.html (from https://cryptospire.trade/styles/custom.css)
+18:42:08	Error: 	"Not Found" (404) at link https://cryptospire.trade/styles/images/faq.html (from https://cryptospire.trade/styles/custom.css)
+18:42:08	Warning: 	Link https://cryptospire.trade/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 39 seconds : 65 links scanned, 62 files written (1672321 bytes overall) [1318875 bytes received at 33817 bytes/sec], 524757 bytes transferred using HTTP compression in 34 files, ratio 20%, 5.5 requests per connection
+(2 errors, 1 warnings, 0 messages)
